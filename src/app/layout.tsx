@@ -1,8 +1,33 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from 'next/font/local';
+import {Providers} from "./providers";
+import  "bootstrap/dist/css/bootstrap.min.css"
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const kodeMonoRegular = localFont({
+  src: './fonts/Kode/KodeMono-Regular.ttf',
+  variable: '--font-kode-regular-mono',
+  weight: '400',
+});
+
+const kodeMonoMedium = localFont({
+  src: './fonts/Kode/KodeMono-Medium.ttf',
+  variable: '--font-kode-medium-mono',
+  weight: '500',
+});
+
+const kodeMonoSemiBold = localFont({
+  src: './fonts/Kode/KodeMono-SemiBold.ttf',
+  variable: '--font-kode-semibold-mono',
+  weight: '600',
+});
+
+const kodeMonoBold = localFont({
+  src: './fonts/Kode/KodeMono-Bold.ttf',
+  variable: '--font-kode-bold-mono',
+  weight: '700',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +40,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='dark'>
+      <body className={`${kodeMonoRegular.variable} ${kodeMonoMedium.variable} ${kodeMonoBold.variable} ${kodeMonoSemiBold.variable} antialiased`}>
+        <Providers>
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }
