@@ -83,7 +83,7 @@ export default function Home() {
               <section className="flex flex-col items-center justify-center h-full">
                 <h2 className="text-center font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">My Projects</h2>
                 <section className="items-center justify-center h-full">
-                  <Carousel activeIndex={index} onSelect={handleSelect} className="w-[90%]" data-bs-ride="false">
+                  <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
                         <img src="/proyectoSpringboot.jpg" className="h-[100%]"></img>
@@ -233,20 +233,20 @@ export default function Home() {
               </section>
             </TabPanel>
             <TabPanel className="bg-maincolor-200 grid w-full grid-rows-[auto] md:grid-rows-[40%_auto] p-2 rounded-md h-full dark:bg-maincolor-500">
-              <section className="items-center justify-center">
+              <section className="items-center justify-center place-items-center">
                 <h2 className="w-full md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Contact Me</h2>
-                <section className="bg-maincolor-300 p-2 rounded-lg m-2 flex flex-col md:flex-row items-center justify-center dark:bg-maincolor-600">
-                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto dark:border-white">
+                <section className="bg-maincolor-300 p-2 rounded-lg m-2 flex flex-col xl:flex-row items-center justify-center place-items-center dark:bg-maincolor-600">
+                  <section className="xl:justify-center xl:p-20 border-solid xl:border-r-2 border-b-2 xl:border-b-0 border-black w-full xl:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
                     <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Personal Email</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">hamisan36@gmail.com</p>
                   </section>
-                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto dark:border-white">
+                  <section className="xl:justify-center xl:p-20 border-solid xl:border-r-2 border-b-2 xl:border-b-0 border-black w-full xl:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg>
                     <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Phone Number</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">3148308355</p>
                   </section>
-                  <section className="md:justify-center p-2 md:border-b-0 w-full md:w-auto">
+                  <section className="xl:justify-center xl:p-10 xl:border-b-0 w-full xl:w-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg>
                     <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-wrap text-3xl text-center dark:text-white">Institutional Email</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-wrap text-sm md:text-base text-center dark:text-white">hamilton.insandara@campusucc.edu.co</p>
