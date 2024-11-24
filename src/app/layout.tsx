@@ -5,29 +5,26 @@ import {Providers} from "./providers";
 import  "bootstrap/dist/css/bootstrap.min.css"
 import "./globals.css";
 
-const kodeMonoRegular = localFont({
-  src: './fonts/Kode/KodeMono-Regular.ttf',
-  variable: '--font-kode-regular-mono',
-  weight: '400',
-});
-
-const kodeMonoMedium = localFont({
-  src: './fonts/Kode/KodeMono-Medium.ttf',
-  variable: '--font-kode-medium-mono',
-  weight: '500',
-});
-
-const kodeMonoSemiBold = localFont({
-  src: './fonts/Kode/KodeMono-SemiBold.ttf',
-  variable: '--font-kode-semibold-mono',
-  weight: '600',
-});
-
-const kodeMonoBold = localFont({
-  src: './fonts/Kode/KodeMono-Bold.ttf',
-  variable: '--font-kode-bold-mono',
-  weight: '700',
-});
+const kodeMono = localFont({
+  src: [
+    {
+      path: './fonts/Kode/KodeMono-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './fonts/Kode/KodeMono-Medium.ttf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: './fonts/Kode/KodeMono-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-kode-mono'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -41,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className='dark'>
-      <body className={`${kodeMonoRegular.variable} ${kodeMonoMedium.variable} ${kodeMonoBold.variable} ${kodeMonoSemiBold.variable} antialiased`}>
+      <body className={kodeMono.variable}>
         <Providers>
           {children}
         </Providers>
