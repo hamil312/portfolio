@@ -315,6 +315,7 @@ export default function Home() {
               </section>
             </TabPanel>
           </Tabs>
+          <p className="place-self-center mt-20 font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Made by Hamilton Santiago Insandara Alvarez</p>
         </section>
       </main>
     </section>
