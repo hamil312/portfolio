@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className='dark'>
-      <body className={kodeMono.variable}>
+      <body className={`${kodeMono.className} ${kodeMono.variable}`}>
         <Providers>
           {children}
         </Providers>

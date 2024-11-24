@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['var(--font-kode-mono)'],
+      },
       colors:{
         background: '#F6F4FE',
         foreground: '#8557db',

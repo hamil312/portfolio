@@ -24,11 +24,11 @@ export default function ThemeSwitch() {
       />
     );
 
-  if (resolvedTheme === 'dark') {
+  if (resolvedTheme === 'light') {
     return <FaLightbulb className='text-3xl' onClick={() => setTheme('light')} />;
   }
 
-  if (resolvedTheme === 'light') {
+  if (resolvedTheme === 'dark') {
     return <FaRegLightbulb className='text-3xl' onClick={() => setTheme('dark')} />;
   }
 }
