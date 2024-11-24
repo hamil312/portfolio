@@ -39,10 +39,10 @@ export default function Home() {
   return (
     <section>
       <header className="bg-maincolor-600 fixed top-0 w-full h-16 z-10 dark:bg-maincolor-900">
-        <h1 className="text-center text-xl md:text-2xl font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Portfolio</h1>
+        <h1 className="text-center text-3xl md:text-4xl font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Portfolio</h1>
         <ThemeSwitch />
       </header>
-      <main className="flex justify-center p-24 md:p-24 w-screen h-full bg-maincolor-50 dark:bg-maincolor-950">  
+      <main className="flex justify-center p-24 md:p-24 h-full bg-maincolor-50 dark:bg-maincolor-950">  
         <section className="flex w-full md:w-[90%] flex-col justify-center items-center h-[50%]">
           <Tabs aria-label="Options" className="w-full justify-center items-center content-center">
             <TabList className="flex flex-wrap justify-center ">
@@ -236,12 +236,12 @@ export default function Home() {
               <section className="items-center justify-center">
                 <h2 className="w-full md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Contact Me</h2>
                 <section className="bg-maincolor-300 p-2 rounded-lg m-2 flex flex-col md:flex-row items-center justify-center dark:bg-maincolor-600">
-                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto">
+                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
                     <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Personal Email</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">hamisan36@gmail.com</p>
                   </section>
-                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto">
+                  <section className="md:justify-center p-2 border-solid md:border-r-2 border-b-2 md:border-b-0 border-black w-full md:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg>
                     <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Phone Number</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">3148308355</p>
