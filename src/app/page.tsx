@@ -45,13 +45,13 @@ export default function Home() {
       <main className="flex justify-center p-24 md:p-24 w-screen h-full bg-maincolor-50 dark:bg-maincolor-950">  
         <section className="flex w-full md:w-[90%] flex-col justify-center items-center h-[50%]">
           <Tabs aria-label="Options" className="w-full justify-center items-center content-center">
-            <TabList className="flex flex-wrap justify-center">
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">About Me</p></Tab>
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Projects</p></Tab>
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Academic and Laboral Experiences</p></Tab>
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Personal Experiences</p></Tab>
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contact Me</p></Tab>
-              <Tab><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Technical Skills and Tools</p></Tab>
+            <TabList className="flex flex-wrap justify-center ">
+              <Tab className="bg-maincolor-600 rounded-md p-2 dark:bg-maincolor-900"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">About Me</p></Tab>
+              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-800"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Projects</p></Tab>
+              <Tab className="bg-maincolor-400 rounded-md p-2 dark:bg-maincolor-700"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Academic and Laboral Experiences</p></Tab>
+              <Tab className="bg-maincolor-300 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Personal Experiences</p></Tab>
+              <Tab className="bg-maincolor-200 rounded-md p-2 dark:bg-maincolor-500"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contact Me</p></Tab>
+              <Tab className="bg-maincolor-100 rounded-md p-2 dark:bg-maincolor-400"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Technical Skills and Tools</p></Tab>
             </TabList>
             <TabPanel className="bg-maincolor-600 grid w-full grid-rows-[auto] md:grid-rows-[40%_auto] p-2 rounded-md md:h-full dark:bg-maincolor-900">
               <section className="flex flex-col md:flex-row bg-maincolor-300 rounded-md dark:bg-maincolor-700">
