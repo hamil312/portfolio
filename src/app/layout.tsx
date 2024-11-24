@@ -6,6 +6,7 @@ import  "bootstrap/dist/css/bootstrap.min.css"
 import "./globals.css";
 
 const kodeMono = localFont({
+  //Importing kode mono font
   src: [
     {
       path: './fonts/Kode/KodeMono-Regular.ttf',
