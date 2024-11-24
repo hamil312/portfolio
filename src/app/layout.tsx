@@ -8,17 +8,17 @@ import "./globals.css";
 const kodeMono = localFont({
   src: [
     {
-      path: '../public/fonts/Kode/KodeMono-Regular.ttf',
+      path: './fonts/Kode/KodeMono-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/fonts/Kode/KodeMono-Medium.ttf',
+      path: './fonts/Kode/KodeMono-Medium.ttf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../public/fonts/Kode/KodeMono-Bold.ttf',
+      path: './fonts/Kode/KodeMono-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
