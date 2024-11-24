@@ -37,8 +37,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className='dark'>
-      <body className={`${kodeMono.className} ${kodeMono.variable}`}>
+    <html lang="en">
+      <body className={`${kodeMono.className} ${kodeMono.variable} antialised`}>
         <Providers>
           {children}
         </Providers>
