@@ -86,9 +86,9 @@ export default function Home() {
                   <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
-                        <img src="/proyectoSpringboot.jpg" className="h-[100%]"></img>
+                        <img src="/proyectoSpringboot.jpg" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A project created for a university course, consisting of an API that stores and retrieves course information from a database</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, consisting of an API that stores and retrieves course information from a database</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Java</p>
@@ -102,10 +102,10 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Course API</p>
                     </Carousel.Item>
                     <Carousel.Item key={2} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
-                        <img src="/basicTextEditor.jpg" className="h-[100%]"></img>
-                        <section className="bg-maincolor-400 m-2 dark:bg-maincolor-700">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A project created for a university course, it is a basic text editor made in Java using libraries such as JavaSwing and JFrame</p>
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
+                        <img src="/basicTextEditor.jpg" className="h-[100%] border-solid border-2 border-black"></img>
+                        <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic text editor made in Java using libraries such as JavaSwing and JFrame</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Java</p>
@@ -115,10 +115,10 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Basic Text Editor</p>
                     </Carousel.Item>
                     <Carousel.Item key={3} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
-                        <img src="/dataStructuresProjects.jpg" className="h-[100%]"></img>
-                        <section className="bg-maincolor-400 m-2 dark:bg-maincolor-700">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A project created for a university course, it is a basic library management system made using Python and TKinter, built specifically to make use of different data structures such as queues, stacks, arrays and linked lists</p>
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
+                        <img src="/dataStructuresProjects.jpg" className="h-[100%] border-solid border-2 border-black"></img>
+                        <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic library management system made using Python and TKinter, built specifically to make use of different data structures such as queues, stacks, arrays and linked lists</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Python</p>
@@ -128,10 +128,10 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Book Management System</p>
                     </Carousel.Item>
                     <Carousel.Item key={4} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
-                        <img src="/linkedinlike.jpg" className="h-[100%]"></img>
-                        <section className="bg-maincolor-400 m-2 dark:bg-maincolor-700">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A group project created for a university course, it is a web application for a linkedin like page, a social network focused on connecting workers and employers, it uses a PostgreSQL database, a backend built using Django and a frontend using Angular</p>
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
+                        <img src="/linkedinlike.jpg" className="h-[100%] border-solid border-2 border-black"></img>
+                        <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A group project created for a university course, it is a web application for a linkedin like page, a social network focused on connecting workers and employers, it uses a PostgreSQL database, a backend built using Django and a frontend using Angular</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Python</p>
@@ -157,10 +157,10 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">LinkedIn Like Webpage</p>
                     </Carousel.Item>
                     <Carousel.Item key={5} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
-                        <img src="/sistemaGestionHospital.jpg" className="h-[100%]"></img>
-                        <section className="bg-maincolor-400 m-2 dark:bg-maincolor-700">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A project created for a university course, it is a basic program made in java that connects to a MySQL Database and allows users to modify, create and delete data from it, it emulates the basic functions that a management system for a hospital could need</p>
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
+                        <img src="/sistemaGestionHospital.jpg" className="h-[100%] border-solid border-2 border-black"></img>
+                        <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic program made in java that connects to a MySQL Database and allows users to modify, create and delete data from it, it emulates the basic functions that a management system for a hospital could need</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Java</p>
@@ -261,22 +261,22 @@ export default function Home() {
                   <section className="flex flex-col">
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">Java</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I am familiar with the usage of the java language due to its usage within our university projects</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Java</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I am familiar with the usage of the java language due to its usage within our university projects</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">Python</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I am familiar with the usage of python, learning it through university and independently through the internet</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl ">Python</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">I am familiar with the usage of python, learning it through university and independently through the internet</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">C++</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I learned  c++ to a basic level through independent means</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl ">C++</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">I learned  c++ to a basic level through independent means</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-48 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M20.66 7a1.51 1.51 0 0 0-.55-.57l-7.34-4.24a1.67 1.67 0 0 0-1.54 0L3.89 6.43a1.68 1.68 0 0 0-.77 1.33v8.48a1.57 1.57 0 0 0 .22.76 1.51 1.51 0 0 0 .55.57l7.34 4.24a1.67 1.67 0 0 0 1.54 0l7.34-4.24a1.51 1.51 0 0 0 .55-.57 1.57 1.57 0 0 0 .22-.76V7.76a1.57 1.57 0 0 0-.22-.76zM12 17.92A5.92 5.92 0 1 1 17.13 9L16 9.71l-.36.2-1 .61A3 3 0 0 0 9 12a2.88 2.88 0 0 0 .4 1.48 3 3 0 0 0 5.13 0l2.6 1.52A5.94 5.94 0 0 1 12 17.92zm5.92-5.59h-.66V13h-.65v-.66H16v-.66h.66V11h.65v.66h.66zm2.47 0h-.66V13h-.66v-.66h-.65v-.66h.65V11h.66v.66h.66z"></path></svg>
                     </section>
@@ -288,8 +288,8 @@ export default function Home() {
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-ml-12 dark:fill-white" viewBox="0 0 24 24"><path d="M21 3h-7a2.98 2.98 0 0 0-2 .78A2.98 2.98 0 0 0 10 3H3a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1h5.758c.526 0 1.042.214 1.414.586l1.121 1.121c.009.009.021.012.03.021.086.079.182.149.294.196h.002a.996.996 0 0 0 .762 0h.002c.112-.047.208-.117.294-.196.009-.009.021-.012.03-.021l1.121-1.121A2.015 2.015 0 0 1 15.242 20H21a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.758 18H4V5h6c.552 0 1 .449 1 1v12.689A4.032 4.032 0 0 0 8.758 18zM20 18h-4.758c-.799 0-1.584.246-2.242.689V6c0-.551.448-1 1-1h6v13z"></path></svg>
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">English</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">As of now, my English level is considered to be B2, and I can understand both written and spoken English, as well as write and speak it myself.</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">English</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">As of now, my English level is considered to be B2, and I can understand both written and spoken English, as well as write and speak it myself.</p>
                       </section>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
@@ -299,15 +299,15 @@ export default function Home() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="md:w-8 md:-ml-10 md:-mb-20 dark:fill-white" viewBox="0 0 24 24"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"></path></svg>
                       </section>
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">Web Development</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I have basic experience with the usage of basic web development tools such as javascript, html and css</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Web Development</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I have basic experience with the usage of basic web development tools such as javascript, html and css</p>
                       </section>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-48 md:-ml-12 dark:fill-white" viewBox="0 0 24 24"><path d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596"></path></svg>
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl dark:text-white">Spring Boot</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I have used spring boot to create a java API REST in university</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Spring Boot</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I have used spring boot to create a java API REST in university</p>
                       </section>
                     </section>
                   </section>
