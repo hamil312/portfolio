@@ -46,7 +46,7 @@ export default function Home() {
         <section className="flex w-full md:w-[90%] flex-col justify-center items-center h-[50%]">
           <Tabs aria-label="Options" className="w-full justify-center items-center content-center">
             <TabList className="flex flex-wrap justify-center ">
-              <Tab className="bg-maincolor-600 rounded-md p-2 dark:bg-maincolor-900"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">About Me</p></Tab>
+              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-900"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">About Me</p></Tab>
               <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-800"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Projects</p></Tab>
               <Tab className="bg-maincolor-400 rounded-md p-2 dark:bg-maincolor-700"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Academic and Laboral Experiences</p></Tab>
               <Tab className="bg-maincolor-300 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Personal Experiences</p></Tab>
