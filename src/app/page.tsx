@@ -75,7 +75,7 @@ export default function Home() {
                   </section>
                 </section>
                 <section>
-                  <p className="text-center font-[family-name:var(--font-kode-bold-mono)] dark:text-white">I like videogames, music, art and writing</p>
+                  <p className="text-center font-[family-name:var(--font-kode-bold-mono)] text-white">I like videogames, music, art and writing</p>
                 </section>
               </section>
             </TabPanel>
