@@ -50,8 +50,8 @@ export default function Home() {
               <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-800"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Projects</p></Tab>
               <Tab className="bg-maincolor-400 rounded-md p-2 dark:bg-maincolor-700"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Academic and Laboral Experiences</p></Tab>
               <Tab className="bg-maincolor-300 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Personal Experiences</p></Tab>
-              <Tab className="bg-maincolor-200 rounded-md p-2 dark:bg-maincolor-500"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contact Me</p></Tab>
-              <Tab className="bg-maincolor-100 rounded-md p-2 dark:bg-maincolor-400"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Technical Skills and Tools</p></Tab>
+              <Tab className="bg-maincolor-200 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contact Me</p></Tab>
+              <Tab className="bg-maincolor-100 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Technical Skills and Tools</p></Tab>
             </TabList>
             <TabPanel className="bg-maincolor-600 grid w-full grid-rows-[auto] md:grid-rows-[40%_auto] p-2 rounded-md md:h-full dark:bg-maincolor-900">
               <section className="flex flex-col md:flex-row bg-maincolor-300 rounded-md dark:bg-maincolor-700">
@@ -85,7 +85,7 @@ export default function Home() {
                 <section className="items-center justify-center h-full">
                   <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-400 rounded-md dark:bg-maincolor-700">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md dark:bg-maincolor-400">
                         <img src="/proyectoSpringboot.jpg" className="h-[100%]"></img>
                         <section className="bg-maincolor-200 md:m-2 dark:bg-maincolor-400">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2 dark:text-white">A project created for a university course, consisting of an API that stores and retrieves course information from a database</p>
@@ -256,7 +256,7 @@ export default function Home() {
             </TabPanel>
             <TabPanel className="bg-maincolor-100 grid w-full grid-rows-[40%_auto] p-2 rounded-md h-full dark:bg-maincolor-400">
               <section className="items-center justify-center">
-                <h2 className="md:w-[40%] w-full font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Technical Skills and Tools</h2>
+                <h2 className="md:w-[40%] w-full font-[family-name:var(--font-kode-bold-mono)] text-3xl">Technical Skills and Tools</h2>
                 <section className="items-center bg-maincolor-300 flex flex-col xl:flex-row rounded-md dark:bg-maincolor-600">
                   <section className="flex flex-col">
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
