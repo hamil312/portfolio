@@ -217,7 +217,7 @@ export default function Home() {
                     {experiences.map((experience, index) => (
                       <section
                         key={index}
-                        className="bg-maincolor-400 p-2 rounded-lg m-2 border-solid border-black border-1 cursor-pointer dark:bg-maincolor-700"
+                        className="bg-maincolor-400 p-2 rounded-lg m-2 border-solid border-black border-1 cursor-pointer dark:bg-maincolor-700 dark:border-white"
                         onClick={() => setSelectedImage(experience.image)}
                       >
                         <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">
