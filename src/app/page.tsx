@@ -85,9 +85,9 @@ export default function Home() {
                 <section className="items-center justify-center h-full">
                   <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/proyectoSpringboot.jpg" alt="Screenshot of Java Spring Boot Course API project" className="h-[100%] border-solid border-2 border-black"></img>
-                        <section className="bg-maincolor-200 md:m-2">
+                        <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, consisting of an API that stores and retrieves course information from a database</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
@@ -102,9 +102,9 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Course API</p>
                     </Carousel.Item>
                     <Carousel.Item key={2} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/basicTextEditor.jpg" alt="Screenshot of Basic Text Editor project" className="h-[100%] border-solid border-2 border-black"></img>
-                        <section className="bg-maincolor-200 md:m-2">
+                        <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic text editor made in Java using libraries such as JavaSwing and JFrame</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
@@ -115,9 +115,9 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Basic Text Editor</p>
                     </Carousel.Item>
                     <Carousel.Item key={3} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/dataStructuresProjects.jpg" alt="Screenshot of Data Structures Projects" className="h-[100%] border-solid border-2 border-black"></img>
-                        <section className="bg-maincolor-200 md:m-2">
+                        <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic library management system made using Python and TKinter, built specifically to make use of different data structures such as queues, stacks, arrays and linked lists</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
@@ -128,9 +128,9 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Book Management System</p>
                     </Carousel.Item>
                     <Carousel.Item key={4} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md ">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md ">
                         <img src="/linkedinlike.jpg" alt="Screenshot of LinkedIn-like web application project" className="h-[100%] border-solid border-2 border-black"></img>
-                        <section className="bg-maincolor-200 md:m-2 ">
+                        <section className="bg-maincolor-100 md:m-2 ">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A group project created for a university course, it is a web application for a linkedin like page, a social network focused on connecting workers and employers, it uses a PostgreSQL database, a backend built using Django and a frontend using Angular</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
@@ -157,9 +157,9 @@ export default function Home() {
                       <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">LinkedIn Like Webpage</p>
                     </Carousel.Item>
                     <Carousel.Item key={5} className="p-10 rounded-md">
-                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-200 rounded-md">
+                      <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/sistemaGestionHospital.jpg" alt="Screenshot of Sistema de Gestion Hospital project" className="h-[100%] border-solid border-2 border-black"></img>
-                        <section className="bg-maincolor-200 md:m-2">
+                        <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic program made in java that connects to a MySQL Database and allows users to modify, create and delete data from it, it emulates the basic functions that a management system for a hospital could need</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
