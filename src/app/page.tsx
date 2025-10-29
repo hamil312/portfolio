@@ -18,49 +18,49 @@ export default function Home() {
 
   const experiences = [
     {
-      title: "Basic and Medium Education",
+      title: "Educación Básica y Media",
       description:
-        "I studied at the IEM Pedagógico in the city of Pasto, where I received basic education focused on the values of Respect, solidarity, responsability and honesty",
-      image: "/pedagogico.jpeg", // Cambia esto al path de tu imagen.
+        "Estudié mi educación básica y media en la institución educativa municipal Pedagógico de la Ciudad de Pasto, institución en la que me formé conforme a los principios del respeto, la responsabilidad, la honestidad y la solidaridad",
+      image: "/pedagogico.jpeg",
     },
     {
-      title: "Engineering Seminar",
+      title: "Seminario de Ingeniería",
       description:
-        "At UCC, students have the opportunity to participate in a seminar dedicated to discussing various relevant engineering topics.",
-      image: "/seminario.jpg", // Cambia esto al path de tu imagen.
+        "En la UCC, los estudiantes tienen la oportunidad de participar en un seminario dedicado a discutir diversos temas relevantes de ingeniería.",
+      image: "/seminario.jpg",
     },
     {
-      title: "Animals",
+      title: "Animales",
       description:
-        "I am partly in charge of taking care of a group of hens, which includes checking for diseases, checking that they do not go missing, feeding them, provide treatment for illnesses, etc.",
-      image: "/chicken.jpg", // Cambia esto al path de tu imagen.
+        "Soy parcialmente responsable de cuidar un grupo de gallinas, lo que incluye revisar si tienen enfermedades, verificar que no se pierdan, alimentarlas, proporcionar tratamiento para enfermedades, etc.",
+      image: "/chicken.jpg",
     },
   ];
   return (
     <section>
       <header className="bg-maincolor-600 fixed top-0 w-full h-16 z-10 dark:bg-maincolor-900">
-        <h1 className="text-center text-3xl md:text-4xl font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Portfolio</h1>
+        <h1 className="text-center text-3xl md:text-4xl font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Mi Portafolio</h1>
         <ThemeSwitch />
       </header>
       <main className="flex justify-center p-24 md:p-24 h-full bg-maincolor-50 dark:bg-maincolor-950">  
         <section className="flex w-full md:w-[90%] flex-col justify-center items-center h-[50%]">
           <Tabs aria-label="Options" className="w-full justify-center items-center content-center">
             <TabList className="flex flex-wrap justify-center ">
-              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-900"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">About Me</p></Tab>
-              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-800"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">My Projects</p></Tab>
-              <Tab className="bg-maincolor-400 rounded-md p-2 dark:bg-maincolor-700"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Academic and Laboral Experiences</p></Tab>
-              <Tab className="bg-maincolor-300 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Personal Experiences</p></Tab>
-              <Tab className="bg-maincolor-200 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contact Me</p></Tab>
-              <Tab className="bg-maincolor-100 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Technical Skills and Tools</p></Tab>
+              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-900"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Sobre Mí</p></Tab>
+              <Tab className="bg-maincolor-500 rounded-md p-2 dark:bg-maincolor-800"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Mis Proyectos</p></Tab>
+              <Tab className="bg-maincolor-400 rounded-md p-2 dark:bg-maincolor-700"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Experiencias Académicas y Laborales</p></Tab>
+              <Tab className="bg-maincolor-300 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Experiencias Personales</p></Tab>
+              <Tab className="bg-maincolor-200 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Contáctame</p></Tab>
+              <Tab className="bg-maincolor-100 rounded-md p-2 dark:bg-maincolor-600"><p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Habilidades y Herramientas Técnicas</p></Tab>
             </TabList>
             <TabPanel className="bg-maincolor-600 grid w-full grid-rows-[auto] md:grid-rows-[40%_auto] p-2 rounded-md md:h-full dark:bg-maincolor-900">
               <section className="flex flex-col md:flex-row bg-maincolor-300 rounded-md dark:bg-maincolor-700">
                 <section className="w-full md:w-[25%] p-4 md:ml-5">
-                  <h2 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">About Me</h2>
-                  <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">My name is Hamilton Santiago Insandara Alvarez, i&apos;m 19 years old and I&apos;m a student in the software engineering program at the UCC in Pasto.</p>
+                  <h2 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">Sobre Mí</h2>
+                  <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">Mi nombre es Hamilton Santiago Insandara Alvarez, tengo 19 años y soy estudiante del programa de ingeniería de software en la UCC de Pasto.</p>
                 </section>
                 <img src="/myphoto.png" alt="Portrait of Hamilton Santiago Insandara Alvarez" className="w-full md:w-[45%] object-contain"></img>
-                <p className="w-full md:w-[25%] p-4 text-center md:text-right font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">I live in Colombia and I am studying so i can bring my ideas to life through software</p>
+                <p className="w-full md:w-[25%] p-4 text-center md:text-right font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">Vivo en Colombia y estoy estudiando para poder llevar mis ideas a la vida a través del software.</p>
               </section>
               <section>
                 <section className="items-center justify-center flex sm:flex-row flex-col">
@@ -75,20 +75,20 @@ export default function Home() {
                   </section>
                 </section>
                 <section>
-                  <p className="text-center font-[family-name:var(--font-kode-bold-mono)] text-white">I like videogames, music, art and writing</p>
+                  <p className="text-center font-[family-name:var(--font-kode-bold-mono)] text-white">Me gustan los videojuegos, la música, el arte y la escritura</p>
                 </section>
               </section>
             </TabPanel>
             <TabPanel className="bg-maincolor-500 w-full p-2 rounded-md h-full grid grid-rows-[80%_auto] dark:bg-maincolor-800">
               <section className="flex flex-col items-center justify-center h-full">
-                <h2 className="text-center font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">My Projects</h2>
+                <h2 className="text-center font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">Mis Proyectos</h2>
                 <section className="items-center justify-center h-full">
                   <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/proyectoSpringboot.jpg" alt="Screenshot of Java Spring Boot Course API project" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, consisting of an API that stores and retrieves course information from a database</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, que consiste en una API que almacena y recupera información de cursos de una base de datos</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl">Java</p>
@@ -99,39 +99,39 @@ export default function Home() {
                           </section>
                         </section>
                       </section>
-                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Course API</p>
+                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">API de Cursos</p>
                     </Carousel.Item>
                     <Carousel.Item key={2} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/basicTextEditor.jpg" alt="Screenshot of Basic Text Editor project" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic text editor made in Java using libraries such as JavaSwing and JFrame</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un editor de texto básico hecho en Java utilizando bibliotecas como JavaSwing y JFrame</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl">Java</p>
                           </section>
                         </section>
                       </section>
-                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Basic Text Editor</p>
+                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Editor de Texto Básico</p>
                     </Carousel.Item>
                     <Carousel.Item key={3} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/dataStructuresProjects.jpg" alt="Screenshot of Data Structures Projects" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic library management system made using Python and TKinter, built specifically to make use of different data structures such as queues, stacks, arrays and linked lists</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un sistema de gestión de bibliotecas básico hecho en Python y TKinter, construido específicamente para hacer uso de diferentes estructuras de datos como colas, pilas, arreglos y listas enlazadas</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl">Python</p>
                           </section>
                         </section>
                       </section>
-                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Book Management System</p>
+                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Sistema de Gestión de Bibliotecas</p>
                     </Carousel.Item>
                     <Carousel.Item key={4} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md ">
                         <img src="/linkedinlike.jpg" alt="Screenshot of LinkedIn-like web application project" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2 ">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A group project created for a university course, it is a web application for a linkedin like page, a social network focused on connecting workers and employers, it uses a PostgreSQL database, a backend built using Django and a frontend using Angular</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto grupal creado para un curso universitario, es una aplicación web para una página similar a LinkedIn, una red social centrada en conectar trabajadores y empleadores, utiliza una base de datos PostgreSQL, un backend construido con Django y un frontend utilizando Angular</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl">Python</p>
@@ -154,20 +154,20 @@ export default function Home() {
                           </section>
                         </section>
                       </section>
-                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">LinkedIn Like Webpage</p>
+                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Página Web de tipo LinkedIn</p>
                     </Carousel.Item>
                     <Carousel.Item key={5} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
                         <img src="/sistemaGestionHospital.jpg" alt="Screenshot of Sistema de Gestion Hospital project" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
-                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">A project created for a university course, it is a basic program made in java that connects to a MySQL Database and allows users to modify, create and delete data from it, it emulates the basic functions that a management system for a hospital could need</p>
+                          <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un programa básico hecho en Java que se conecta a una base de datos MySQL y permite a los usuarios modificar, crear y eliminar datos de ella, emulando las funciones básicas que podría necesitar un sistema de gestión para un hospital</p>
                           <section className="flex flex-row">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                             <p className="pt-2 ml-2 font-[family-name:var(--font-kode-bold-mono)] text-xl">Java</p>
                           </section>
                         </section>
                       </section>
-                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Basic Hospital Management System</p>
+                      <p className="pt-2 pl-2 font-[family-name:var(--font-kode-bold-mono)] text-xl dark:text-white">Sistema de Gestión Hospitalaria Básico</p>
                     </Carousel.Item>
                   </Carousel>
                 </section>
@@ -175,15 +175,15 @@ export default function Home() {
             </TabPanel>
             <TabPanel className="bg-maincolor-400 grid w-full grid-rows-[40%_auto] p-2 rounded-md h-full dark:bg-maincolor-700">
               <section className="items-center justify-center">
-                <h2 className="md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Academic And Laboral Experiences</h2>
+                <h2 className="md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Experiencias Académicas y Laborales</h2>
                 <section className="flex items-center flex-col">
                   <section className="grid grid-rows-[auto_auto_auto] md:grid-cols-[20%_50%_30%] mt-10">
                     <section className="mt-3 md:border-solid md:border-t-2 md:border-black dark:border-white">
                       <p className="font-[family-name:var(--font-kode-bold-mono)] invisible dark:text-white">-------------</p>
                     </section>
                     <section className="">
-                      <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Academic Experience</h3>
-                      <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">At University I have been able to create several projects using languages such as Python, Java, html, etc and some frameworks such as Tailwind and Springboot, while also learning about good practices while coding and the different stages of software development, i also have the chance of sharing and collaborating with my peers, learning about teamwork and soft skills </p>
+                      <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Experiencia Académica</h3>
+                      <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">En la universidad he podido crear varios proyectos utilizando lenguajes como Python, Java, HTML, etc. y algunos frameworks como Tailwind y Springboot, mientras también aprendía sobre buenas prácticas al programar y las diferentes etapas del desarrollo de software, también tuve la oportunidad de compartir y colaborar con mis compañeros, aprendiendo sobre trabajo en equipo y habilidades blandas.</p>
                     </section>
                     <section>
                       <img src="/universidad.jpg" alt="Photo of campus" className="w-full p-3"></img>
@@ -194,8 +194,8 @@ export default function Home() {
                       <img src="/tienda.jpg" alt="Photo of store" className="w-full p-3"></img>
                     </section>
                     <section className="items-end row-start-1 md:col-start-2 md:row-span-full">
-                      <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-end dark:text-white">Laboral Experience</h3>
-                      <p className="font-[family-name:var(--font-kode-bold-mono)] text-end dark:text-white">Currently i do not have experience within the field of software development, so far, i have only worked on a small grocery shop.</p>
+                      <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-end dark:text-white">Experiencia Laboral</h3>
+                      <p className="font-[family-name:var(--font-kode-bold-mono)] text-end dark:text-white">Actualmente no tengo experiencia en el campo del desarrollo de software, hasta ahora, solo he trabajado en una pequeña tienda de comestibles.</p>
                     </section>
                     <section className="row-start-3 md:col-start-3 md:row-span-full mt-3 md:border-solid md:border-t-2 md:border-black dark:border-white">
                       <p className="font-[family-name:var(--font-kode-bold-mono)] invisible dark:text-white">-------------</p>
@@ -234,21 +234,21 @@ export default function Home() {
             </TabPanel>
             <TabPanel className="bg-maincolor-200 grid w-full grid-rows-[auto] md:grid-rows-[40%_auto] p-2 rounded-md h-full dark:bg-maincolor-500">
               <section className="items-center justify-center place-items-center">
-                <h2 className="w-full md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Contact Me</h2>
+                <h2 className="w-full md:w-[40%] font-[family-name:var(--font-kode-bold-mono)] text-3xl dark:text-white">Contáctame</h2>
                 <section className="bg-maincolor-300 p-2 rounded-lg m-2 flex flex-col xl:flex-row items-center justify-center place-items-center dark:bg-maincolor-600">
                   <section className="xl:justify-center xl:p-20 border-solid xl:border-r-2 border-b-2 xl:border-b-0 border-black w-full xl:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
-                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Personal Email</h3>
+                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Correo Electrónico Personal</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">hamisan36@gmail.com</p>
                   </section>
                   <section className="xl:justify-center xl:p-20 border-solid xl:border-r-2 border-b-2 xl:border-b-0 border-black w-full xl:w-auto dark:border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg>
-                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Phone Number</h3>
+                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-center dark:text-white">Número de Teléfono</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base text-center dark:text-white">3148308355</p>
                   </section>
                   <section className="xl:justify-center xl:p-10 xl:border-b-0 w-full xl:w-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 md:w-24 md:h-24 mx-auto dark:fill-white" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg>
-                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-wrap text-3xl text-center dark:text-white">Institutional Email</h3>
+                    <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-wrap text-3xl text-center dark:text-white">Correo Electrónico Institucional</h3>
                     <p className="font-[family-name:var(--font-kode-bold-mono)] text-wrap text-sm md:text-base text-center dark:text-white">hamilton.insandara@campusucc.edu.co</p>
                   </section>
                 </section>
@@ -256,27 +256,27 @@ export default function Home() {
             </TabPanel>
             <TabPanel className="bg-maincolor-100 grid w-full grid-rows-[40%_auto] p-2 rounded-md h-full dark:bg-maincolor-400">
               <section className="items-center justify-center">
-                <h2 className="md:w-[40%] w-full font-[family-name:var(--font-kode-bold-mono)] text-3xl">Technical Skills and Tools</h2>
+                <h2 className="md:w-[40%] w-full font-[family-name:var(--font-kode-bold-mono)] text-3xl">Habilidades Técnicas y Herramientas</h2>
                 <section className="items-center bg-maincolor-300 flex flex-col xl:flex-row rounded-md dark:bg-maincolor-600">
                   <section className="flex flex-col">
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
                         <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Java</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I am familiar with the usage of the java language due to its usage within our university projects</p>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">Estoy familiarizado con el uso del lenguaje Java debido a su uso en nuestros proyectos universitarios</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.37 17.51c-3.09.86 1.87 2.64 5.8 1a7.18 7.18 0 0 1-1.1-.54 11.59 11.59 0 0 1-4.16.18c-1.31-.15-.54-.64-.54-.64zm5.33-1.68a16.27 16.27 0 0 1-5.36.26c-1.31-.14-.45-.77-.45-.77-3.4 1.12 1.89 2.4 6.64 1a2.25 2.25 0 0 1-.83-.49zm1.82-9.73s-6.87 1.71-3.59 5.49a1.47 1.47 0 0 1-.25 2.12s2.46-1.27 1.33-2.86-1.86-2.22 2.51-4.75z"></path><path d="M18.13 19.14s.56.46-.63.82c-2.27.69-9.43.9-11.42 0-.72-.31.62-.74 1-.83a2.54 2.54 0 0 1 .69-.08c-.8-.56-5.15 1.1-2.21 1.58 8.05 1.37 14.64-.56 12.57-1.49zm-2.76-4.88a7 7 0 0 1 .92-.49s-1.51.27-3 .4a28.11 28.11 0 0 1-4.82.05C6.09 13.91 9.74 13 9.74 13a6.81 6.81 0 0 0-3.16.75c-2.06 1.03 5.09 1.48 8.79.51zm.91 2.44a.39.39 0 0 1-.08.09c5-1.32 3.18-4.65.78-3.81a.71.71 0 0 0-.33.25s.14-.05.43-.12c1.22-.25 2.92 1.63-.8 3.59zM12 13c-.74-1.67-3.26-3.14 0-5.71C16.09 4.08 14 2 14 2c.84 3.31-3 4.31-4.34 6.37-.93 1.41.47 2.92 2.34 4.63z"></path><path d="M16.41 21.32a29.75 29.75 0 0 1-9.14.14s.46.38 2.84.53c3.61.23 9.15-.12 9.29-1.83 0 0-.26.64-2.99 1.16z"></path></svg>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
                         <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl ">Python</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">I am familiar with the usage of python, learning it through university and independently through the internet</p>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">Estoy familiarizado con el uso de Python, aprendiendo a través de la universidad y de forma independiente a través de Internet</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <section>
                         <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl ">C++</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">I learned  c++ to a basic level through independent means</p>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)] ">Aprendí C++ a un nivel básico por medios independientes</p>
                       </section>
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-48 md:-mr-12 dark:fill-white" viewBox="0 0 24 24"><path d="M20.66 7a1.51 1.51 0 0 0-.55-.57l-7.34-4.24a1.67 1.67 0 0 0-1.54 0L3.89 6.43a1.68 1.68 0 0 0-.77 1.33v8.48a1.57 1.57 0 0 0 .22.76 1.51 1.51 0 0 0 .55.57l7.34 4.24a1.67 1.67 0 0 0 1.54 0l7.34-4.24a1.51 1.51 0 0 0 .55-.57 1.57 1.57 0 0 0 .22-.76V7.76a1.57 1.57 0 0 0-.22-.76zM12 17.92A5.92 5.92 0 1 1 17.13 9L16 9.71l-.36.2-1 .61A3 3 0 0 0 9 12a2.88 2.88 0 0 0 .4 1.48 3 3 0 0 0 5.13 0l2.6 1.52A5.94 5.94 0 0 1 12 17.92zm5.92-5.59h-.66V13h-.65v-.66H16v-.66h.66V11h.65v.66h.66zm2.47 0h-.66V13h-.66v-.66h-.65v-.66h.65V11h.66v.66h.66z"></path></svg>
                     </section>
@@ -288,8 +288,8 @@ export default function Home() {
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-56 md:-ml-12 dark:fill-white" viewBox="0 0 24 24"><path d="M21 3h-7a2.98 2.98 0 0 0-2 .78A2.98 2.98 0 0 0 10 3H3a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1h5.758c.526 0 1.042.214 1.414.586l1.121 1.121c.009.009.021.012.03.021.086.079.182.149.294.196h.002a.996.996 0 0 0 .762 0h.002c.112-.047.208-.117.294-.196.009-.009.021-.012.03-.021l1.121-1.121A2.015 2.015 0 0 1 15.242 20H21a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.758 18H4V5h6c.552 0 1 .449 1 1v12.689A4.032 4.032 0 0 0 8.758 18zM20 18h-4.758c-.799 0-1.584.246-2.242.689V6c0-.551.448-1 1-1h6v13z"></path></svg>
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">English</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)]">As of now, my English level is considered to be B2, and I can understand both written and spoken English, as well as write and speak it myself.</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Inglés</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">Hasta ahora, mi nivel de inglés se considera B2, y puedo entender tanto el inglés escrito como el hablado, así como escribirlo y hablarlo yo mismo.</p>
                       </section>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
@@ -299,15 +299,15 @@ export default function Home() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="md:w-8 md:-ml-10 md:-mb-20 dark:fill-white" viewBox="0 0 24 24"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"></path></svg>
                       </section>
                       <section>
-                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Web Development</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I have basic experience with the usage of basic web development tools such as javascript, html and css</p>
+                        <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Desarrollo Web</h5>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">Tengo experiencia básica con el uso de herramientas básicas de desarrollo web como JavaScript, HTML y CSS</p>
                       </section>
                     </section>
                     <section className="bg-maincolor-400 p-2 rounded-lg m-5 border-solid border-black border-1 flex md:flex-row flex-col dark:bg-maincolor-500">
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-48 md:-ml-12 dark:fill-white" viewBox="0 0 24 24"><path d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596"></path></svg>
                       <section>
                         <h5 className="font-[family-name:var(--font-kode-bold-mono)] text-2xl">Spring Boot</h5>
-                        <p className="font-[family-name:var(--font-kode-bold-mono)]">I have used spring boot to create a java API REST in university</p>
+                        <p className="font-[family-name:var(--font-kode-bold-mono)]">He utilizado Spring Boot para crear una API REST en Java en la universidad</p>
                       </section>
                     </section>
                   </section>
@@ -315,7 +315,7 @@ export default function Home() {
               </section>
             </TabPanel>
           </Tabs>
-          <p className="place-self-center mt-20 font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Made by Hamilton Santiago Insandara Alvarez</p>
+          <p className="place-self-center mt-20 font-[family-name:var(--font-kode-bold-mono)] dark:text-white">Hecho por Hamilton Santiago Insandara Alvarez</p>
         </section>
       </main>
     </section>
