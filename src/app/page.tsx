@@ -59,7 +59,7 @@ export default function Home() {
                   <h2 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl md:text-6xl dark:text-white">Sobre Mí</h2>
                   <p className="font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">Mi nombre es Hamilton Santiago Insandara Alvarez, tengo 19 años y soy estudiante del programa de ingeniería de software en la UCC de Pasto.</p>
                 </section>
-                <img src="/myphoto.png" alt="Portrait of Hamilton Santiago Insandara Alvarez" className="w-full md:w-[45%] object-contain"></img>
+                <img src="/myphoto.png" alt="Foto de Hamilton Santiago Insandara Alvarez" className="w-full md:w-[45%] object-contain"></img>
                 <p className="w-full md:w-[25%] p-4 text-center md:text-right font-[family-name:var(--font-kode-bold-mono)] text-sm md:text-base dark:text-white">Vivo en Colombia y estoy estudiando para poder llevar mis ideas a la vida a través del software.</p>
               </section>
               <section>
@@ -86,7 +86,7 @@ export default function Home() {
                   <Carousel activeIndex={index} onSelect={handleSelect} className="w-[100%] h-full items-center justify-center" data-bs-ride="false">
                     <Carousel.Item key={1} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
-                        <img src="/proyectoSpringboot.jpg" alt="Screenshot of Java Spring Boot Course API project" className="h-[100%] border-solid border-2 border-black"></img>
+                        <img src="/proyectoSpringboot.jpg" alt="Pantallazo del proyecto de Springboot realizado en Java" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, que consiste en una API que almacena y recupera información de cursos de una base de datos</p>
                           <section className="flex flex-row">
@@ -103,7 +103,7 @@ export default function Home() {
                     </Carousel.Item>
                     <Carousel.Item key={2} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
-                        <img src="/basicTextEditor.jpg" alt="Screenshot of Basic Text Editor project" className="h-[100%] border-solid border-2 border-black"></img>
+                        <img src="/basicTextEditor.jpg" alt="Pantallazo de proyecto de editor de texto básico" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un editor de texto básico hecho en Java utilizando bibliotecas como JavaSwing y JFrame</p>
                           <section className="flex flex-row">
@@ -116,7 +116,7 @@ export default function Home() {
                     </Carousel.Item>
                     <Carousel.Item key={3} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
-                        <img src="/dataStructuresProjects.jpg" alt="Screenshot of Data Structures Projects" className="h-[100%] border-solid border-2 border-black"></img>
+                        <img src="/dataStructuresProjects.jpg" alt="Pantallazo del sistema de gestión de bibliotecas" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un sistema de gestión de bibliotecas básico hecho en Python y TKinter, construido específicamente para hacer uso de diferentes estructuras de datos como colas, pilas, arreglos y listas enlazadas</p>
                           <section className="flex flex-row">
@@ -129,7 +129,7 @@ export default function Home() {
                     </Carousel.Item>
                     <Carousel.Item key={4} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md ">
-                        <img src="/linkedinlike.jpg" alt="Screenshot of LinkedIn-like web application project" className="h-[100%] border-solid border-2 border-black"></img>
+                        <img src="/linkedinlike.jpg" alt="Pantallazo de proyecto de aplicación web similar a LinkedIn" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2 ">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto grupal creado para un curso universitario, es una aplicación web para una página similar a LinkedIn, una red social centrada en conectar trabajadores y empleadores, utiliza una base de datos PostgreSQL, un backend construido con Django y un frontend utilizando Angular</p>
                           <section className="flex flex-row">
@@ -158,7 +158,7 @@ export default function Home() {
                     </Carousel.Item>
                     <Carousel.Item key={5} className="p-10 rounded-md">
                       <section className="grid lg:grid-cols-[20%_auto] grid-rows-[auto_auto] bg-maincolor-100 rounded-md">
-                        <img src="/sistemaGestionHospital.jpg" alt="Screenshot of Sistema de Gestion Hospital project" className="h-[100%] border-solid border-2 border-black"></img>
+                        <img src="/sistemaGestionHospital.jpg" alt="Pantallazo del Sistema de Gestión Hospital" className="h-[100%] border-solid border-2 border-black"></img>
                         <section className="bg-maincolor-100 md:m-2">
                           <p className="font-[family-name:var(--font-kode-bold-mono)] ml-2">Un proyecto creado para un curso universitario, es un programa básico hecho en Java que se conecta a una base de datos MySQL y permite a los usuarios modificar, crear y eliminar datos de ella, emulando las funciones básicas que podría necesitar un sistema de gestión para un hospital</p>
                           <section className="flex flex-row">
@@ -186,12 +186,12 @@ export default function Home() {
                       <p className="font-[family-name:var(--font-kode-bold-mono)] dark:text-white">En la universidad he podido crear varios proyectos utilizando lenguajes como Python, Java, HTML, etc. y algunos frameworks como Tailwind y Springboot, mientras también aprendía sobre buenas prácticas al programar y las diferentes etapas del desarrollo de software, también tuve la oportunidad de compartir y colaborar con mis compañeros, aprendiendo sobre trabajo en equipo y habilidades blandas.</p>
                     </section>
                     <section>
-                      <img src="/universidad.jpg" alt="Photo of campus" className="w-full p-3"></img>
+                      <img src="/universidad.jpg" alt="Foto del campus" className="w-full p-3"></img>
                     </section>
                   </section>
                   <section className="grid md:grid-cols-[30%_50%_20%] grid-rows-[auto_auto_auto] mt-10">
                     <section className="row-start-2 md:col-start-1 md:row-span-full">
-                      <img src="/tienda.jpg" alt="Photo of store" className="w-full p-3"></img>
+                      <img src="/tienda.jpg" alt="Foto de la tienda" className="w-full p-3"></img>
                     </section>
                     <section className="items-end row-start-1 md:col-start-2 md:row-span-full">
                       <h3 className="font-[family-name:var(--font-kode-bold-mono)] text-3xl text-end dark:text-white">Experiencia Laboral</h3>
@@ -211,7 +211,7 @@ export default function Home() {
                 </h2>
                 <section className="flex items-center md:flex-row flex-col">
                   <section className="items-center w-[60%]">
-                    <img src={selectedImage} className="rounded-full w-full" alt="Experience" />
+                    <img src={selectedImage} className="rounded-full w-full" alt="Experiencia" />
                   </section>
                   <section className="flex flex-column p-3">
                     {experiences.map((experience, index) => (
